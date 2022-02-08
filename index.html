@@ -5,7 +5,20 @@
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <nav>
+        <table class="nav">
+          <tr class="nav">
+          <a href="#"><td class="nav">Home</td></a>
+          <a href="#"><td class="nav">Blog</td></a>
+          <a href="#"><td class="nav">About</td></a>
+</tr>
+
+</table>
+        </ul>
+        </nav>
 	<h1>CSS Box Model</h1>
+  </header>
   <div id="model">
     <p>In CSS, the term "box model" is used when talking about design and layout.
 
@@ -43,7 +56,66 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
   </div>
 
   </div>
-  
-  
+  <br>
+  <h2>CSS properties pertaining to the Box Model:</h2>
+  <table class="dimension-table">
+    <thead>
+      <tr>
+        <td colspan=2><h3>CSS Dimension Properties</h3></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td class="row1">height</td><td>Sets the height of an element</td></tr>
+        <tr><td class="row1">max-height</td><td>Sets the maximum height of an element</td></tr>
+        <tr><td class="row1">max-width</td><td>Sets the maximum width of an element</td></tr>
+        <tr><td class="row1">min-height</td><td>Sets the minimum height of an element</td></tr>
+        <tr><td class="row1">min-width</td><td>Sets the minimum width of an element</td></tr>
+        <tr><td class="row1">width</td><td>Sets the width of an element</td></tr>
+        </tbody>
+        </table>
+  <table class="padding-table">
+    <thead>
+      <tr>
+        <td colspan=2><h3>CSS Padding Properties</h3></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td class="row1">padding</td><td>A shorthand property for setting all the padding properties in one declaration</td></tr>
+        <tr><td class="row1">padding-bottom</td><td>Sets the bottom padding of an element</td></tr>
+        <tr><td class="row1">padding-left</td><td>Sets the left padding of an element</td></tr>
+        <tr><td class="row1">padding-right</td><td>Sets the right padding of an element</td></tr>
+        <tr><td class="row1">padding-top</td><td>Sets the top padding of an element</td></tr>
+        
+        </tbody>
+        </table>
+        <table class="border-table">
+    <thead>
+      <tr>
+        <td colspan=2><h3>CSS Border Properties</h3></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td class="row1">border-style</td><td>Specifies what kind of border to display- dotted, dashed, solid, double, etc</td></tr>
+        <tr><td class="row1">border-width</td><td>Specifies the width of the four borders- in px, pt, cm, em, etc or by using one of the three pre-defined values: thin, medium, or thick</td></tr>
+        <tr><td class="row1">border-color</td><td>Sets the color of the four borders by name, HEX (#ff0000), RGB (rgb255,0,0), HSL (hsl(0, 100%, 50%)), or transparent</td></tr>
+        <tr><td class="row1">border-top-style, border-right-style, border-bottom-style, border-left-style</td><td>Sets the border style for one particular side</td></tr>
+        <tr><td class="row1">border</td><td>A shorthand way to style a border's width, style and color (border: 5px solid red;)</td></tr>
+        <tr><td class="row1">border-radius</td><td>Used to add rounded borders to an element</td></tr>
+        </tbody>
+  </table>
+  <table class="margin-table">
+    <thead>
+      <tr>
+        <td colspan=2><h3>CSS Margin Properties</h3></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td class="row1">margin</td><td>A shorthand property for setting the margin properties in one declaration (eg. margin: 10px 5px 15px 20px;, margin: 10px; margin: 10px 5px, margin 10px 4px, 20px;) where the 4 values are top, right, bottom, and left or all sides (one value), top/bottom and left/right (2 values), or top, left/right, bottom (3 values)</td></tr>
+        <tr><td class="row1">margin-left</td><td>Sets the left margin of an element</td></tr>
+         <tr><td class="row1">margin-right</td><td>Sets the right margin of an element</td></tr>
+        <tr><td class="row1">margin-bottom</td><td>Sets the bottom margin of an element</td></tr>
+        <tr><td class="row1">margin-top</td><td>Sets the top margin of an element</td></tr>
+        </tbody>
+  </table>
   </body>
 </html>
